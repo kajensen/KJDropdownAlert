@@ -44,14 +44,14 @@
         //defaults
         self.titleFont = [UIFont systemFontOfSize:20.0f];
         self.subTitleFont = [UIFont systemFontOfSize:12.0f];
-        self.textColorError = [UIColor whiteColor];
-        self.viewColorError = [UIColor redColor];
-        self.textColorInfo = [UIColor whiteColor];
-        self.viewColorInfo = [UIColor blueColor];
-        self.textColorSuccess = [UIColor whiteColor];
-        self.viewColorSuccess = [UIColor greenColor];
-        self.textColorOther = [UIColor whiteColor];
-        self.viewColorOther = [UIColor orangeColor];
+        self.textColorError = [UIColor redColor];
+        self.viewColorError = [UIColor colorWithWhite:0 alpha:0.5f];
+        self.textColorInfo = [UIColor blueColor];
+        self.viewColorInfo = [UIColor colorWithWhite:0 alpha:0.5f];
+        self.textColorSuccess = [UIColor greenColor];
+        self.viewColorSuccess = [UIColor colorWithWhite:0 alpha:0.5f];
+        self.textColorOther = [UIColor orangeColor];
+        self.viewColorOther = [UIColor colorWithWhite:0 alpha:0.5f];
         self.seconds = 3;
     }
     return self;
